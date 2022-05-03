@@ -13,17 +13,30 @@ body{
 }
 
 /* LOGO AND NAVIGATION LINKS*/
-
+header{
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+}
 #logo{
     float: left;
     text-decoration:none;
     color: whitesmoke;
-    float:left
+    float:left;
+    margin: 2em;
 }
 
 ul{ float: right;
     list-style-type: none;
-    margin-right: 2em;
+    display: flex;
+    flex-direction: row;
+}
+
+ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 2em;
 }
 
 a{
