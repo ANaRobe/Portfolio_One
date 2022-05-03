@@ -31,8 +31,12 @@ a{
     text-decoration: none;
 }
 
-/*PORTRAIT*/
+/*Photos*/
+#background-img{
+    width: 100px;
+    height: 1auto;
+}
 #portrait{
-    width: 15%;
+    width: 30px;
     height: auto;
 }
