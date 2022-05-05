@@ -14,19 +14,28 @@ body{
 
 /* LOGO AND NAVIGATION LINKS*/
 header{
+    display: flex;
+    justify-content: space-between;
     background-color: transparent;
-    position: fixed;
     width: 100%;
+    height: 4em;
 }
+
 #logo{
-    float: left;
     text-decoration:none;
-    color: whitesmoke;
-    float:left;
+    font-size: larger;
     margin: 2em;
 }
 
-ul{ float: right;
+#home header #logo{
+    color: whitesmoke;
+}
+
+#logo:hover{
+    opacity: 0.5;
+}
+
+ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -39,7 +48,11 @@ ul li{
     margin: 2em;
 }
 
-a{
+ul li :hover{
+    opacity: 0,5;
+}
+
+#home header nav ul li a{
     color: whitesmoke;
     text-decoration: none;
 }
