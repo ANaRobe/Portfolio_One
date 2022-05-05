@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Quicksand&family=Roboto+Mono:ital,wght@1,200&display=swap');
 
+/*GENERAL*/
 *{
     margin: 0;
     padding: 0;
     border: 0;
 }
+
 body{
     font-family: 'ROBOTO MONO',monospace, sans-serif;
     font-weight: 300;
-    color: whitesmoke ;
-    background-color: rgb(27, 25, 32);
 }
 
 /* LOGO AND NAVIGATION LINKS*/
@@ -27,10 +27,6 @@ header{
     margin: 2em;
 }
 
-#home header #logo{
-    color: whitesmoke;
-}
-
 #logo:hover{
     opacity: 0.5;
 }
@@ -42,6 +38,7 @@ ul{
 }
 
 ul li{
+    text-decoration: none;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -52,27 +49,36 @@ ul li :hover{
     opacity: 0,5;
 }
 
-#home header nav ul li a{
-    color: whitesmoke;
-    text-decoration: none;
-}
 
-/*Photos*/
+/*HOME PAGE*/
 #home{
     background-image: url(images/Laptop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgb(27, 25, 32);
+    color: whitesmoke;
 }
+/*CONTENT*/
 
-#portrait img{
-    width: 30px;
+#portrait{
+    width: 200px;
     height: auto;
 }
 
+#portrait img{
+    width: 100%;
+    margin-bottom: 2em;
+}
+
 #content{
+    margin: 5em;
     height: 50vh;
     display: flex;
     flex-direction: center;
     align-items: center;
-    
+    opacity: 0.8;
+}
+ 
+#content :hover{
+    opacity: 0.5;
 }
