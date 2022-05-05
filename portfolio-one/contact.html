@@ -14,21 +14,21 @@
 
 <body id="contact">
    <header>
-       <a href="index.html" id="logo" target="_blank">ANa Robe</a>
+       <a href="https://index.html" id="logo" target="_blank">ANa Robe</a>
         <nav>
             <ul>
                 <li>
-                    <a href="index.html" target="_blank">Home</a>
+                    <a href="https://index.html" target="_blank">Home</a>
                 </li>
                 <li>
-                    <a href="work.html" target="_blank">Work</a>
+                    <a href="https://work.html" target="_blank">Work</a>
                 </li>
                 <li>
-                    <a href="about.html" target="_blank">About</a>
+                    <a href="https://about.html" target="_blank">About</a>
                 </li>
               
                 <li>
-                    <a href="contact.html" target="_blank">Contact</a>
+                    <a href="https://contact.html" target="_blank">Contact</a>
                 </li>             
             </ul>
         </nav>
@@ -36,22 +36,35 @@
 
    <section >
         <div id="contact-details">
-            <a  href="about.html" target="_blank">
-                <img  src="assets/images/ANaR.jpg" alt="Ana's Portrait picture">
-            </a>
+            <h1>Contact</h1>
+            <h2>ANa Robe</h2>
+                <h3>Email:</h3> 
+                <a href="https://gmail.com">
+                    <p>ana.maria.robe@gmail.com</p>
+                </a>
+                <h3>Telephone:</h3>
+                <p>+49 40123456</p>
+                <h3>Website:</h3>
+                <p></p>
+                <a href="#">
+                    <p>ANaRobe.com</p>
+                </a>
+
         </div>
              
         <div id="contact=form">
            <h2>Let's get in contact</h2>
            <form>
-               <label>First Name</label>
-               <input>
-               <label>Last Name</label>
-               <input>
-               <label>Email</label>
-               <label>Subject</label>
-               <textarea></textarea>
-           </form>
+               <label for="fname">First Name</label>
+               <input type="text" id="fname" name="firstname" placeholder="Your name">
+               <label for="lname">Last Name</label>
+               <input type="text" id="lname" name="lastname" placeholder="Your last name">
+               <label for="email">Email</label>
+               <input type="email" id="email" pattern="@" required>
+               <label for="subject">Subject</label>
+               <textarea id="subject" name="subject" placeholder="Write something" style="height:200px"></textarea>
+               <input type="submit" value="Submit">
+            </form>
         </div> 
     </section>
     
