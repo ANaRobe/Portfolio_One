@@ -12,7 +12,7 @@ body{
     font-weight: 300;
 }
 
-/* LOGO AND NAVIGATION LINKS*/
+    /* LOGO, NAVIGATION LINKS */
 header{
     display: flex;
     justify-content: space-between;
@@ -25,7 +25,7 @@ header{
     text-decoration:none;
     font-size: larger;
     margin: 2em;
-    color: whitesmoke;
+    color: rgb(59, 57, 57);
 }
 
 #logo:hover{
@@ -42,17 +42,22 @@ ul li{
     text-decoration: none;
     display: flex;
     justify-content: space-between;
-   /* align-items: flex-start;*/
     margin: 2em;
 }
 
 ul li a{
     text-decoration: none;
-    color:whitesmoke
+    color: rgb(59, 57, 57);
 }
 
-ul li :hover{
+ul li a :hover{
     opacity: 0,5;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+
 }
 
 
@@ -62,28 +67,45 @@ ul li :hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(27, 25, 32);
-    color:whitesmoke
-    
+    color:whitesmoke  
 }
-/*CONTENT*/
 
-#portrait{
+    /* HOME LOGO AND NAVBAR*/
+
+#home header nav ul li a{
+    color:whitesmoke;
+}
+#home header #logo{
+    color:whitesmoke;
+}
+
+/* HOME FOOTER*/
+#home footer{
+    color:whitesmoke;
+}
+
+    /*CONTENT*/
+
+.portrait{
     width: 200px;
     height: auto;
+    opacity: 0.8;
 }
 
-#portrait img{
+.portrait img{
     width: 100%;
     margin-bottom: 2em;
+    border-radius: 8%;
+   border: 1em;
+   border-style:outset;
 }
 
 #content{
     margin: 5em;
-    height: 50vh;
+    height: 68vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    opacity: 0.8;
 }
 
 #content div a{
@@ -92,5 +114,56 @@ ul li :hover{
 }
  
 #content :hover{
-    opacity: 0.5;
+    opacity: 0.8;
+}
+
+/*WORK PAGE*/
+#work{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon{
+    width: 6em;
+    height:auto;
+    margin:2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*ABOUT*/
+
+#grid{
+    width: 80vh;
+    display: grid;
+    grid-template-columns: repeat(8 1fr);
+    grid-template-rows: repeat(8 1fr);
+}
+
+#portrait-box{
+    padding: pink;
+    grid-column-start: 2;
+    grid-column-end: 4;   
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+#intro{
+    padding:aliceblue;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    grid-column-start: 3;
+    grid-column-end: 7;
+}
+
+#recommendations{
+    padding: rgb(190, 227, 181);
+    grid-column-start: 5;
+    grid-column-end: 7;   
+    grid-row-start: 5;
+    grid-row-end: 8;
 }
