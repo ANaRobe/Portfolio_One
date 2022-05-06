@@ -25,6 +25,7 @@ header{
     text-decoration:none;
     font-size: larger;
     margin: 2em;
+    color: whitesmoke;
 }
 
 #logo:hover{
@@ -45,18 +46,24 @@ ul li{
     margin: 2em;
 }
 
+ul li a{
+    text-decoration: none;
+    color:whitesmoke
+}
+
 ul li :hover{
     opacity: 0,5;
 }
 
 
-/*HOME PAG
+/*HOME PAGE*/
 #home{
-    background-image: url(images/Laptop.jpg);
+    background-image: url(../images/Laptop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(27, 25, 32);
-    color: whitesmoke;
+    color:whitesmoke
+    
 }
 /*CONTENT*/
 
@@ -77,6 +84,11 @@ ul li :hover{
     flex-direction: column;
     align-items: center;
     opacity: 0.8;
+}
+
+#content div a{
+    text-decoration: none;
+    color: whitesmoke;
 }
  
 #content :hover{
