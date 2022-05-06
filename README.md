@@ -1,108 +1,70 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+ANa Robe
+This is a personal website that aims to promote the work and programming skills with the purpose of making online presenc of the Web developer in discussion. 
+The site will be targeted toward Privats and  small Companies who want also online presence or who need different applications in order to make easier the daily work inside their companies.
 
-Welcome ANaRobe,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+EXISTING FUTURES
+- Navigation bar
+-Featured on all 4 pages, the full responsive navigation bar includes links to the  Home page, Work, About and Contact page and is identical in each page to allow for easy navigation
+This section will allow the user to easily navigate from page to page without having to revert back to the previous page via 'back' button.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The Home page consists of a Portrait Picture and an introductory message , when hovered they lose opacity, making the home page interactive.
+This section introduces the user to the Information he needs to know about the web developer by just clicking them .
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+WORK SECTION
 
-Another blue button should appear to click: _Open Browser_.
+The WORK section will allow the user to explore different projects that the web developer created over time and make anoverall image about his programming aproach and capabilities.
+The user could also get inspired by seeing these projects and decide if one of them would fit his needs.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+ABOUT SECTION
 
-Another blue button should appear to click: _Open Browser_.
+Technical abilities are not enoughf to make an overall image about the person who the user could work for a certain period of time. Therfore the section in which the web developer describes himself and past experiences are equal important.
+On the same page the user can find other people's opinions and recommendations which will help the user to take an esier decision in wheather or not to get in contact with the developer.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+CONTACT SECTION
 
-To log into the Heroku toolbelt CLI:
+The page will allow the user to get in contact with the developer by submiting his Name and email adress and also Write shortly what does he need or want.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+TESTING
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+HTML
+No errors were returned when passing through the official W3C validator
+CSS
+No errors were found when passing through the official (Jigsaw) validator
 
-------
+Unfixed bugs
 
-## Release History
+DEPLOYMENT
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+CREDITS
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Instructions on how to implement contact form was taken from https://www.w3schools.com/
+https://www.w3schools.com/howto/howto_css_contact_form.asp#:~:text=%3Cinput%20type%3D%22text%22,%22Your%20name..%22%3E
+and
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Instructions on how to make a section to have 100% width and height of the window. 
+https://stackoverflow.com/questions/22247178/html-sections-100-height-of-viewport
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Resource to understand positioning
+http://flexboxfroggy.com/
+https://cssgridgarden.com/
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+The icons in the footer and the Work page were taken from Font Awesome
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Media
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The photo used on the home page as background image is from This Open Source site
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+https://www.bing.com/images/search?view=detailV2&ccid=w%2fxCZ2P4&id=3B9E94443C15B12822BB3F590EC9BD427E3152A4&thid=OIP.w_xCZ2P4qrCd_M7w_mjLZwHaEK&mediaurl=https%3a%2f%2fwallpapertag.com%2fwallpaper%2ffull%2fb%2f9%2f6%2f350851-download-free-website-background-1920x1080-for-mobile-hd.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.c3fc426763f8aab09dfccef0fe68cb67%3frik%3dpFIxfkK9yQ5ZPw%26pid%3dImgRaw%26r%3d0&exph=1080&expw=1920&q=background+image+for+website+laptop&simid=608001235795276534&FORM=IRPRST&ck=74DEFC29242144B6C9528DB977232690&selectedIndex=5&ajaxhist=0&ajaxserp=0
