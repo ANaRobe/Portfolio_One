@@ -10,6 +10,21 @@
 body{
     font-family: 'ROBOTO MONO',monospace, sans-serif;
     font-weight: 300;
+    background-image: linear-gradient(130deg, gray whitesmoke);
+}
+.links{
+    text-decoration: none;
+    color:rgb(47, 48, 48);
+}
+
+.hover :hover{
+    opacity: 0.5;
+}
+
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
     /* LOGO, NAVIGATION LINKS */
@@ -22,14 +37,8 @@ header{
 }
 
 #logo{
-    text-decoration:none;
     font-size: larger;
-    margin: 2em;
-    color: rgb(59, 57, 57);
-}
-
-#logo:hover{
-    opacity: 0.5;
+    margin: 1em;
 }
 
 ul{
@@ -39,25 +48,20 @@ ul{
 }
 
 ul li{
-    text-decoration: none;
     display: flex;
     justify-content: space-between;
     margin: 2em;
 }
 
-ul li a{
-    text-decoration: none;
-    color: rgb(59, 57, 57);
-}
-
-ul li a :hover{
-    opacity: 0,5;
+header nav ul li :hover{
+    opacity: 0.5;
 }
 
 footer{
+    margin-right: 1em;
+    margin-left: 1em;
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-between; 
 }
 
 
@@ -67,71 +71,58 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(27, 25, 32);
-    color:whitesmoke  
 }
 
-    /* HOME LOGO AND NAVBAR*/
+    /* HOME */
 
-#home header nav ul li a{
+.white-text{
     color:whitesmoke;
 }
-#home header #logo{
-    color:whitesmoke;
-}
-
-    /* HOME FOOTER*/
-#home footer{
-    color:whitesmoke;
-}
-
-    /*CONTENT*/
 
 .portrait{
-    width: 200px;
+    width: 20%;
+    margin: 2em;
     height: auto;
     opacity: 0.8;
 }
 
-.portrait img{
-    width: 100%;
-    margin-bottom: 2em;
-    border-radius: 8%;
+img{
+   width: 100%;
+   border-radius: 8%;
    border: 1em;
    border-style:outset;
+   border-color: rgb(157, 162, 162);
 }
 
 .content{
-    margin: 5em;
+    margin: 3em;
     height: 68vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;   
 }
 
-.content div a{
-    text-decoration: none;
-    color: whitesmoke;
-}
- 
-.content :hover{
+.portrait :hover{
     opacity: 0.8;
 }
 
 /*WORK PAGE*/
-#work{
+#projects{
+    width:100%;
+    height: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
+
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    margin: 4em;
 }
 
-.icon{
-    width:6em;
-    height:auto;
-    margin:2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 
 /*ABOUT*/
