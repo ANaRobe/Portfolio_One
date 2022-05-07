@@ -79,7 +79,7 @@ footer{
     color:whitesmoke;
 }
 
-/* HOME FOOTER*/
+    /* HOME FOOTER*/
 #home footer{
     color:whitesmoke;
 }
@@ -125,7 +125,7 @@ footer{
 }
 
 .icon{
-    width: 6em;
+    width:6em;
     height:auto;
     margin:2em;
     display: flex;
