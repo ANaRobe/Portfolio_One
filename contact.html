@@ -12,7 +12,7 @@
     <title>ANa Robe</title>
 </head>
     
-<body>
+<body id="contact">
   <!--HEADER-->
   <header>
     <a href="index.html" id="logo" class="links white-text hover">ANa Robe</a>
@@ -35,27 +35,28 @@
 </header>
     
     <!--CONTACT DETAILS BOX MESSAGE FORM BOX-->
-   <section class="grid">
-        <div class="box-two">
+   <section class="container ">
+        <div  class="first-box left-justify">
             <h1>Contact</h1>
+            <br>
             <h2>ANa Robe</h2>
-                <h3>Email:</h3> 
-                <a href="https://gmail.com">
-                    <p>ana.maria.robe@gmail.com</p>
-                </a>
-                <h3>Telephone:</h3>
-                <p>+49 40123456</p>
-                <h3>Website:</h3>
-                <p></p>
-                <a href="#">
-                    <p>ANaRobe.com</p>
-                </a>
-
-            </div>
+            <br>
+            <h3>Email:</h3> 
+            <a href="https://gmail.com"  class="links hover">
+                <p>ana.maria.robe@gmail.com</p>
+            </a>
+            <br>
+            <h3>Telephone:</h3>
+            <p>+49 40123456</p>
+            <br>
+            <h3>Website:</h3>
+            <a href="#" class="links hover">
+                <p>http://anarobe.com</p>
+            </a>
+        </div>
              
-        <div class="box-three">
-           <h2>Let's get in contact</h2>
-           <form>
+           
+           <form class="second-box left-justify">
                <label for="fname">First Name</label>
                <input type="text" id="fname" name="firstname">
                <label for="lname">Last Name</label>
@@ -63,39 +64,39 @@
                <label for="email">Email</label>
                <input type="email" id="email" pattern="@" required>
                <label for="subject">Subject</label>
-               <textarea id="subject" name="subject" placeholder="Write something" style="height:200px"></textarea>
-               <input type="submit" value="Submit">
+               <textarea id="subject" name="subject" placeholder="Write something"></textarea>
+               <input type="submit" value="Submit" id="submit">
             </form>
-        </div> 
     </section>
     
-    <footer>
+      <!--FOOTER-->
+      <footer>
         <div>Copyright © 2022 ANaRobe</div>
         <div id="social-media">
-            <a href="https://twitter.com" target="_blank">
-               <i class="fa-brands fa-twitter-square"></i>
+            <a href="https://twitter.com" target="_blank" >
+                <a href="https://twitter.com" target="_blank"  class="links hover">
+            <i class="fa-brands fa-twitter-square white-text"></i>
             </a> 
 
-            <a href="https://codepen.io" target="_blank">
-                <i class="fa-brands fa-codepen"></i>
+            <a href="https://codepen.io" target="_blank" class="links hover">
+                <i class="fa-brands fa-codepen white-text links"></i>
             </a>
 
-            <a href="https://github.com" target="_blank">
-                <i class="fa-brands fa-github"></i>
+            <a href="https://github.com" target="_blank" class="links hover">
+                <i class="fa-brands fa-github white-text"></i>
             </a> 
 
-            <a href="https://de.linkedin.com" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
+            <a href="https://de.linkedin.com" target="_blank" class="links hover">
+                <i  class="fa-brands fa-linkedin white-text"></i>
             </a> 
 
             <a href="https://slack.com" target="_blank">
-                <i class="fa-brands fa-slack"></i>
+                <i class="fa-brands fa-slack white-text"></i>
             </a> 
 
-         </div>
+        </div>
 
     </footer>
-
 
 </body>
 </html>
