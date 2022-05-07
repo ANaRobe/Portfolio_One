@@ -53,6 +53,9 @@ https://www.w3schools.com/howto/howto_css_contact_form.asp#:~:text=%3Cinput%20ty
 and
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email
 
+and for the scroll box:
+https://www.quackit.com/html/codes/html_scroll_box.cfm
+
 Instructions on how to make a section to have 100% width and height of the window. 
 https://stackoverflow.com/questions/22247178/html-sections-100-height-of-viewport
 
@@ -60,6 +63,9 @@ Resource to understand positioning
 http://flexboxfroggy.com/
 https://cssgridgarden.com/
 
+Hoe to draw a line in css
+
+https://codepen.io/chriscoyier/pen/mdPGLGO
 The icons in the footer and the Work page were taken from Font Awesome
 
 
