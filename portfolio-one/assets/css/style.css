@@ -100,7 +100,7 @@ footer{
    border-style:outset;
 }
 
-#content{
+.content{
     margin: 5em;
     height: 68vh;
     display: flex;
@@ -108,12 +108,12 @@ footer{
     align-items: center;
 }
 
-#content div a{
+.content div a{
     text-decoration: none;
     color: whitesmoke;
 }
  
-#content :hover{
+.content :hover{
     opacity: 0.8;
 }
 
