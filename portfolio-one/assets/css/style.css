@@ -156,6 +156,12 @@ img{
     grid-row-end: 6;
 }
 
+.third-box{
+    grid-column-start:1;
+    grid-row-start: 1;
+
+}
+
 .left-justify{
     display: flex;
     flex-direction: column;
@@ -166,9 +172,7 @@ img{
 #fname, #lname, #email, #submit{
     padding: 0.4em;
     background-image: linear-gradient(135deg,rgb(236, 242, 247),white, whitesmoke,rgb(97, 104, 107));
-
     border:rgb(40, 40, 40) solid 1px;
-    border-radius: 10%;
     margin: 1em;
 }
 
@@ -177,6 +181,6 @@ img{
     height: 40em;
     background-color: whitesmoke;
     border:rgb(40, 40, 40) solid  1px;
-    border-radius: 5%;
+   
 }
 
