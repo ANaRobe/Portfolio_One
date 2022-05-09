@@ -11,7 +11,6 @@ body{
     font-family: 'ROBOTO MONO',monospace, sans-serif;
     font-weight: 500;
     background-image: linear-gradient(135deg,rgb(29, 30, 30),white,rgb(236, 242, 247),rgb(22, 29, 32));
-    background-repeat: no-repeat;
 }
 
 .links{
@@ -23,10 +22,25 @@ body{
     opacity: 0.5;
 }
 
-.center{
-    display:flex;
+.title{
+    display: flex;
     justify-content: center;
+    margin-bottom: 2em;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin: 2em;
+}
+
+.border{
+    border-radius: 8%;
+    border: 1em;
+    border-style:outset;
+    border-color: rgb(157, 162, 162);
 }
 
     /* LOGO, NAVIGATION LINKS */
@@ -64,8 +78,8 @@ footer{
     margin-left: 1em;
     display: flex;
     justify-content: space-between; 
+    align-items: flex-end;
 }
-
 
 /*HOME PAGE*/
 #home{
@@ -82,7 +96,7 @@ footer{
 }
 
 .portrait{
-    width: 300px;
+    width: 200px;
     margin: 2em;
     height: auto;
     opacity: 0.8;
@@ -90,11 +104,6 @@ footer{
 
 img{
    width: 100%;
-   border-radius: 8%;
-   border: 1em;
-   border-style:outset;
-   border-color: rgb(157, 162, 162);
-   opacity: 0.9;
 }
 
 .content{
@@ -121,40 +130,36 @@ img{
     align-items: center;
 }
 
-.icon{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 2em;
-}
 .line{
     width: 70%;
     border-bottom:1px  solid rgb(142, 160, 160);
 }
 
-
-/*FLEX-BOX*/
-
+/*ABOUT AND CONTACT PAGE*/
 
 .wrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 3em;
 }
 
-.second-box{
+.box{
+    width: 40%;
+    height: auto;
+    margin: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    
 }
 
-.left-justify{
+.inside-box{
+    margin: 2em;
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: flex-start;
 }
+
 
 #fname, #lname, #email, #submit{
     padding: 0.4em;
@@ -164,9 +169,15 @@ img{
 }
 
 #subject{
-    width: 20em;
-    height: 40em;
+    width: 15em;
+    height: 10em;
     background-color: whitesmoke;
     border:rgb(40, 40, 40) solid  1px;
    
+}
+
+.testimonial{
+    width: 80%;
+    height: auto;
+    margin-bottom: 1em;
 }
