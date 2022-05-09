@@ -11,6 +11,7 @@ body{
     font-family: 'ROBOTO MONO',monospace, sans-serif;
     font-weight: 500;
     background-image: linear-gradient(135deg,rgb(29, 30, 30),white,rgb(236, 242, 247),rgb(22, 29, 32));
+    background-repeat: no-repeat;
 }
 
 .links{
@@ -38,7 +39,7 @@ body{
 
 .border{
     border-radius: 8%;
-    border: 1em;
+    border: 0.3em;
     border-style:outset;
     border-color: rgb(157, 162, 162);
 }
