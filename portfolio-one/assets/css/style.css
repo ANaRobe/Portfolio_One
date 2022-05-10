@@ -10,15 +10,13 @@
 body{
     font-family: 'ROBOTO MONO',monospace, sans-serif;
     font-weight: 500;
-    background-image: linear-gradient(135deg,rgb(29, 30, 30),white,rgb(236, 242, 247),rgb(22, 29, 32));
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vh;
+    color: whitesmoke;
+    background-color: rgb(2, 21, 21);
 }
 
 .links{
     text-decoration: none;
-    color:rgb(2, 21, 21);
+    color: whitesmoke;
 }
 
 .hover :hover{
@@ -39,11 +37,8 @@ body{
     margin: 2em;
 }
 
-.border{
-    border-radius: 8%;
-    border: 0.3em;
-    border-style:outset;
-    border-color: rgb(157, 162, 162);
+#projects .portrait :hover{
+    transform:scaleX(5%)
 }
 
     /* LOGO, NAVIGATION LINKS */
@@ -69,7 +64,8 @@ ul{
 ul li{
     display: flex;
     justify-content: space-between;
-    margin: 2em;
+    margin-top: 2em;
+    margin-right: 1em;
 }
 
 header nav ul li :hover{
@@ -142,20 +138,19 @@ img{
 
 .wrapper{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    margin: 3em;
+    align-items: center;
 }
 
 .box{
-    width: 40%;
-    height: auto;
-    margin: 1em;
+    width: 360px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+    margin-top: 4em;
 }
+
 
 .inside-box{
     margin: 2em;
@@ -182,13 +177,11 @@ img{
 .testimonial{
     width: 80%;
     height: auto;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
 }
 
-@media screen and(max-width:800px) {
+@media screen and(max-width:40%) {
 .wrapper{
-    display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: 3em;
 }}    
