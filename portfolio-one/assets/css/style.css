@@ -38,7 +38,8 @@ body{
 }
 
 #projects .portrait :hover{
-    transform:scaleX(5%)
+    transform:scaleX(5%);
+    transition: all 10s ease;
 }
 
     /* LOGO, NAVIGATION LINKS */
@@ -89,11 +90,6 @@ footer{
 }
 
     /* HOME */
-
-.white-text{
-    color:whitesmoke;
-}
-
 .portrait{
     width: 200px;
     margin: 2em;
@@ -103,6 +99,11 @@ footer{
 
 img{
    width: 100%;
+   border: 0.5em;
+   border-radius: 5%;
+   border-style:outset;
+   border-color: rgb(157, 162, 162);
+   opacity: 0.9;
 }
 
 .content{
