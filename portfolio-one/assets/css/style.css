@@ -81,6 +81,7 @@ footer{
     display: flex;
     justify-content: space-between; 
     align-items: flex-end;
+    font: size 5px;;
 }
 
 /*HOME PAGE*/
@@ -122,15 +123,6 @@ img{
 
 /*WORK PAGE*/
 
-#projects{
-    width:100%;
-    height: auto;
-    margin-bottom: 10em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .line{
     width: 70%;
     border-bottom:1px  solid rgb(142, 160, 160);
@@ -139,6 +131,7 @@ img{
 /*ABOUT AND CONTACT PAGE*/
 .spacing{
     letter-spacing: 1px;
+    text-align: justify;
 }
 .wrapper{
     display: flex;
@@ -148,7 +141,7 @@ img{
 }
 
 .box{
-    width: 360px;
+    width: 320px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -156,7 +149,6 @@ img{
 
 
 .inside-box{
-    margin: 2em;
     display: flex;
     flex-direction: column;
 }
@@ -170,20 +162,28 @@ img{
 }
 
 #subject{
-    width: 260px;
+    width: 320px;
     height: 10em;
-    border:rgb(40, 40, 40) solid  1px;
-   
+    border:rgb(40, 40, 40) solid  1px; 
+}
+
+#submit{
+    width:100px;
 }
 
 .testimonial{
-    width: 80%;
-    height: auto;
-    margin-bottom: 3em;
+    margin: 3em 0 3em 0;
 }
 
-@media screen and(max-width:40%) {
+@media (min-width) {
 .wrapper{
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
-}}    
+}
+
+.box{
+    width: 40%;
+}
+
+
+} 
