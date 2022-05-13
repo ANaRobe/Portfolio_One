@@ -1,76 +1,239 @@
-ANa Robe
-This is a personal website that aims to promote the work and programming skills with the purpose of making online presenc of the Web developer in discussion. 
-The site will be targeted toward Privats and  small Companies who want also online presence or who need different applications in order to make easier the daily work inside their companies.
+# ANa Robe
+![alt text](portfolio-one/assets/images/Screenshot-responsiveness.png)
 
 
-EXISTING FUTURES
+
+
+This website is a web developer's résumé extention. It aims to showcase programming the skills and languages accquired through Code Institute's Program.
+
+The website will be targeted towards recruiters, privats and companies.
+
+This website is the first of five projects that needs to be completed in order to receive a diploma in Software Development from The Code Institute.
+
+Requirements for this present project is that the website has to be static and responsive using HTML5 and CSS3.
+
+A live version of the site can be found here: https://anarobe.github.io/Portfolio_One/index.html
+
+## Table of contents
+
+- UX
+         -
+User Demographic
+        -
+User Goals
+        -
+Design
+        -
+Colour Scheme
+        -
+Typography
+        -
+Images
+
+- Features
+        -
+Header and Navigation Bar
+        -
+Home Page
+        -
+Work Page
+        -
+About Page
+        -
+Contact Page
+        -
+Footer section
+        -
+- Technologies Used
+- Testing
+        -
+Validator testing
+        -
+Testing and bugs
+        -
+- Deployment
+- Media
+- Acknowledgements
+- Sources
+
+## UX
+
+### User Demographic
+
+This website has been designed to point in the right direction the potential clients and provide a convenient way to analise the Full-stack web developer's programming skills.
+
+
+### User Goals
+
+To have  an efficient way to analiseweb developer's programming skills in discussion. 
+The user will use this website as an instrument that eases the recruitment process, having all resources and Informations about a potential contracter gathered in just one place.
+
+### Design
+
+The design is a minimalistic one and was influenced by the home page's background image - a laptop on a ndesk.
+
+The decision for this picture was made almost instantly, only by one google search. 
+
+By placing the portrait picture right in the center and the short introduction "Full-Stack-developer" underlining it, invites the users to imagine the creation environment and it's main character. 
+
+### Colour
+ 
+The choice for a dark background [rgb(2, 21, 21);] has the purpose to introduce the reader in the environment we just discussed about.
+
+### Typography 
+
+Having this design in mind, the Roboto font in color: whitesmoke; color passes perfect on the black.
+
+The fonts used for this project were from https://fonts.google.com/.
+
+Icons for the social media links from https://fontawesome.com/.
+
+The fonts used for the entire body:  'ROBOTO MONO',monospace, sans-serif;.
+
+Images have been chosen and edited in accordance to colour and content.
+
+
+## Features
 - Navigation bar
--Featured on all 4 pages, the full responsive navigation bar includes links to the  Home page, Work, About and Contact page and is identical in each page to allow for easy navigation
+- Home page
+- Work page
+- About page
+- Contact page
+
+### Header and Navigation bar
+
+Featured on all 4 pages, the full responsive navigation bar includes links to the Home page, Work, About and Contact page and is identical in each page to allow for easy navigation.
 This section will allow the user to easily navigate from page to page without having to revert back to the previous page via 'back' button.
+An extra page was created to be accessed when the links to future projects are clicked and it will display:"Coming soon!" message.
+
+![alt text](portfolio-one/assets/images/hp-nav-bar.png)
 
 
 
-The Home page consists of a Portrait Picture and an introductory message , when hovered they lose opacity, making the home page interactive.
-This section introduces the user to the Information he needs to know about the web developer by just clicking them .
+
+![alt text](portfolio-one/assets/images/nav-bar.png)
 
 
-WORK SECTION
+### Home page
 
-The WORK section will allow the user to explore different projects that the web developer created over time and make anoverall image about his programming aproach and capabilities.
-The user could also get inspired by seeing these projects and decide if one of them would fit his needs.
+The Home page consists of a Portrait Picture with   border-color: rgb(157, 162, 162);and an introductory message. When hovered over,it loses opacity and a pointer appeares, inviting  the user to click on it. That link will open the "About" page.
+
+The  intro "Hi, I am ANa Robe, Full-Stack-developer" has the same feature that will lead the user to the "Work" page.
+
+This section introduces the user to the Information he needs to know about the web developer only by  clicking them.
+
+![alt text](portfolio-one/assets/images/portrait.png)
+
+### Work page
+
+The Work page consists of three clickable images underlined by their title with the same features. Each section is divided by a styling line of color: rgb(142, 160, 160); which is the common on all 3 pages: Work, About, Contact.
+
+Each image represents a programming language in which the programmer created ceratin projects.                                                                            
+All three of them react by hoverring over -  transform and 50% opacity- and are clickable, inviting the user to explore the Milestone projects made during the Code Institute course.
+
+- HTML&CSS Image will send the user to the Home page of the website in discussion
+
+- JavaScript and Python images will open a page with the message Great things coming soon!" to let the user know that in the future he will be able to discover new projects created in those programming languages.
+
+![alt text](portfolio-one/assets/images/css.png)                             ![alt text](portfolio-one/assets/images/hover.png)
 
 
-ABOUT SECTION
+### About page
 
-Technical abilities are not enoughf to make an overall image about the person who the user could work for a certain period of time. Therfore the section in which the web developer describes himself and past experiences are equal important.
-On the same page the user can find other people's opinions and recommendations which will help the user to take an esier decision in wheather or not to get in contact with the developer.
+In the About page the web developer offers himself the oportunity to shortly describe his past experience and to motivate his decision in choosing web development.
 
-CONTACT SECTION
+Scrolling down the page, the user is able to find also some testimonials from past employers and colleagues  which highlights his personality traits in the work field.
 
-The page will allow the user to get in contact with the developer by submiting his Name and email adress and also Write shortly what does he need or want.
+![alt text](portfolio-one/assets/images/experience.png)                      ![alt text](portfolio-one/assets/images/testimonials.png)
 
-TESTING
+### Contact page
 
-HTML
-No errors were returned when passing through the official W3C validator
-CSS
-No errors were found when passing through the official (Jigsaw) validator
+The Contact page displays one section where the user finds the web developer's adress, telephone number email adress and website. The user has also the pssibility to send a message directly through the message box section. By introducing his name, surname and a valid email adress (respecting the format)  he will be able to contact the programmer.
 
-Unfixed bugs
+![alt text](portfolio-one/assets/images/adress.png)                          ![alt text](portfolio-one/assets/images/message-box.png)
 
-DEPLOYMENT
+### Footer
+
+The footer contains five links (Twitter, Codepen, Github, Linkedin and Slack).
+
+The purpose of this footer is to provide more access to the works of the web developer and social media .
+
+![alt text](portfolio-one/assets/images/footer.png)
+
+### Technologies Used
+* HTML
+* CSS
+
+### Testing
+
+## Validator testing
+
+![alt text](portfolio-one/assets/images/html-validator.png)
+
+## Lighthouse testing
+
+## Testing and Bugs
+
+
+### Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
+
+In the GitHub repository, navigate to the Settings tab.
+
+From the source section drop-down menu, select the Master Branch.
+
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - 
 
-CREDITS
+The live link can be found here -  https://anarobe.github.io/Portfolio_One/index.html
 
-Instructions on how to implement contact form was taken from https://www.w3schools.com/
+### Credit
+
+Instructions on how to implement contact form was taken from:
+
+https://www.w3schools.com/
 https://www.w3schools.com/howto/howto_css_contact_form.asp#:~:text=%3Cinput%20type%3D%22text%22,%22Your%20name..%22%3E
+
 and
+
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email
 
-and for the scroll box:
-https://www.quackit.com/html/codes/html_scroll_box.cfm
+Instructions on how to make a section to have 100% width and height of the window:
 
-Instructions on how to make a section to have 100% width and height of the window. 
 https://stackoverflow.com/questions/22247178/html-sections-100-height-of-viewport
 
-Resource to understand positioning
+Resource to understand flex-box:
+
 http://flexboxfroggy.com/
-https://cssgridgarden.com/
 
-Hoe to draw a line in css
-
-https://codepen.io/chriscoyier/pen/mdPGLGO
-The icons in the footer and the Work page were taken from Font Awesome
+The icons in the footer and the Work page were taken from Font Awesome.
 
 
-Media
+### Media
 
-The photo used on the home page as background image is from This Open Source site
+The photo used on the home page as background image is from This Open Source site:
 
-https://www.bing.com/images/search?view=detailV2&ccid=w%2fxCZ2P4&id=3B9E94443C15B12822BB3F590EC9BD427E3152A4&thid=OIP.w_xCZ2P4qrCd_M7w_mjLZwHaEK&mediaurl=https%3a%2f%2fwallpapertag.com%2fwallpaper%2ffull%2fb%2f9%2f6%2f350851-download-free-website-background-1920x1080-for-mobile-hd.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.c3fc426763f8aab09dfccef0fe68cb67%3frik%3dpFIxfkK9yQ5ZPw%26pid%3dImgRaw%26r%3d0&exph=1080&expw=1920&q=background+image+for+website+laptop&simid=608001235795276534&FORM=IRPRST&ck=74DEFC29242144B6C9528DB977232690&selectedIndex=5&ajaxhist=0&ajaxserp=0
+https://giacomobattocchio.it/wp-content/uploads/2021/01/cropped-wallpaperflare.com_wallpaper-1-e1613147244929.jpg
+
+
+### Acknowledgements
+
+ I'd like to give thanks to;
+
+* Martina Terlevic
+
+* Kasia
+
+* Ionut Ciobanu
+
+### Sources
+
+Sites that provided me with helpful information and resolved many of my issues:
+-  https://www.w3schools.com/
+- https://stackoverflow.com/
+
+The top screen shot for responsive design was taken from:
+
+https://ui.dev/amiresponsive
+
+Thank you!
