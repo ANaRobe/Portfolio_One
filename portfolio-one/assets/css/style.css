@@ -34,11 +34,6 @@ header{
     font-size: 15px;
 }
 
-#logo{
-    margin: 1.5em 0 0 1em;
-    font-size: larger;
-}
-
 .nav{
     grid-area: three;
 }
@@ -69,6 +64,10 @@ footer{
 }
 
 /*ID's*/
+#logo{
+    margin: 1.5em 0 0 1em;
+    font-size: larger;
+}
 
 #home{
     background-image: url(../images/Laptop.jpg);
@@ -105,7 +104,7 @@ footer{
 .center{
     display: flex;
     justify-content: center;
-    margin:2em 0 2em 0;
+    margin: 2em;
 }
 
 .wrapper .picture :hover{
@@ -115,7 +114,6 @@ footer{
 
 .picture{
     width: 200px;
-    opacity: 0.8;
     margin: 1em;
 }
 
@@ -151,15 +149,16 @@ footer{
     width: 320px;
     display: flex;
     flex-direction: column;
+
 }
 
 .inside-box{
     display: flex;
     flex-direction: column;
-    margin: 2em;
+   
 }
 
-@media (min-width:760px){
+@media (min-width:800px){
     header{
         font-size: 18px;
     }
@@ -173,5 +172,5 @@ footer{
         justify-content: space-around;
     }
 
-    .box{width:380px}
+    .box{width:400x}
 }
