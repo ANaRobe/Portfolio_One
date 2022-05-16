@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Full-stack developer">
     <meta name="keywords" content="web developer, full-stack developer, Berlin, Germany">
-     <!-- font awesome script -->   
-     <script src="https://kit.fontawesome.com/205330c142.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="portfolio-one/assets/css/style.css">
     <title>ANa Robe</title>
 </head>
@@ -16,27 +14,29 @@
     
     <!--HEADER-->
     <header>
-        <div id="logo">
-            <a href="index.html" class="links hover">ANa Robe</a>
-        </div>
         <nav>
-            <ul>
-                <li>
-                    <a href="index.html" class="links hover">Home</a>
-                </li>
-                <li>
-                    <a href="work.html" class="links hover">Work</a>
-                </li>
-                <li>
-                    <a href="about.html" class="links hover">About</a>
-                </li>
-                <li>
-                    <a href="contact.html" class="links hover">Contact</a>
-                </li>
-            </ul>
+            <div class="navbar">
+                <div class="container nav-container">
+                    <div class="logo">
+                        <h2 class="spacing">ANaRobe</h2>
+                    </div>
+                    <input class="checkbox" type="checkbox" name="checkbox">
+                    <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div>  
+                    <div class="menu-items">
+                        <li><a href="index.html" class="links hover">Home</a></li>
+                        <li><a href="about.html" class="links hover">About</a></li>
+                        <li><a href="work.html" class="links hover">Work</a></li>
+                        <li><a href="contact.html" class="links hover">Contact</a></li>
+                    </div>
+    
+                </div>
+            </div>
         </nav>
     </header>
-
    <!--PORTRAIT-->
    <section class="content">
         <div class="picture">
@@ -44,11 +44,11 @@
                 <img class="border" src="portfolio-one/assets/images/ANaR.jpg" alt="Ana's Portrait picture">    
             </a>
         </div>
-             
-        <div>
-            <a href="work.html" class="links hover ">
-                <h2>Hi, I'm ANa Robe <br>Full-stack developer</h2>
-            </a> 
+        <a href="work.html" class="links hover">
+            <h1 class="spacing intro">Hi, I'm ANa Robe <br>Full-stack developer</h1>
+        </a> 
+        <div >
+           
         </div> 
     </section>
 
@@ -78,5 +78,9 @@
         </div>
 
     </footer>
+
+      <!-- font awesome script -->   
+      <script src="https://kit.fontawesome.com/205330c142.js" crossorigin="anonymous"></script>
+
 </body>
 </html>

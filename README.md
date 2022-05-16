@@ -189,6 +189,10 @@ The live link can be found here -  https://anarobe.github.io/Portfolio_One/index
 
 ### Credit
 
+The code for the burger menu was taken from:
+
+https://alvarotrigo.com/blog/hamburger-menu-css/
+
 Instructions on how to implement contact form was taken from:
 
 https://www.w3schools.com/
@@ -197,6 +201,7 @@ https://www.w3schools.com/howto/howto_css_contact_form.asp#:~:text=%3Cinput%20ty
 and
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email
+
 
 Instructions on how to make a section to have 100% width and height of the window:
 

@@ -6,42 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Full-stack developer">
     <meta name="keywords" content="web developer, full-stack developer, Berlin, Germany">
-    <!-- font awesome script -->   
-    <script src="https://kit.fontawesome.com/205330c142.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="portfolio-one/assets/css/style.css">
     <title>ANa Robe</title>
 </head>
 
 <body>
   <!--HEADER-->
-    <header>
-        <a href="index.html" id="logo" class="links hover">ANa Robe</a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html" class="links  hover">Home</a>
-                </li>
-                <li>
-                    <a href="work.html" class="links  hover">Work</a>
-                </li>
-                <li>
-                    <a href="about.html" class="links  hover">About</a>
-                </li>
-                <li>
-                    <a href="contact.html" class="links hover">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav>
+        <div class="navbar">
+            <div class="container nav-container">
+                <div class="logo">
+                    <h2 class="spacing">ANaRobe</h2>
+                </div>
+                <input class="checkbox" type="checkbox" name="checkbox">
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>  
+                <div class="menu-items">
+                    <li><a href="index.html" class="links hover">Home</a></li>
+                    <li><a href="about.html" class="links hover">About</a></li>
+                    <li><a href="work.html" class="links hover">Work</a></li>
+                    <li><a href="contact.html" class="links hover">Contact</a></li>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+</header>
+
     <!--WORK EXPERIENCE BOX-->
    <section class="wrapper">
-       <h1>Let me share some words about myself...</h1>
-       <div class="line"></div>
+       <h1 class="center title">Let me share some words about myself...</h1>
+       <div class="horisontal-line"></div>
    </section>
    
    <section class="column">
         <div>
-            <div class="box">
+            <div class="box center">
                 <h2 class="center">Summed up experience </h2>
                 <p class="spacing inside-box"> During my studies (SNSPA Bucharest - Bachelor degree in European Public Administration) I had to face the challenges of moving to the USA to gain professional experience there.
                 I took every step independently - from applying for a visa, deciding on an employment contract, organizing the trip, accommodating and learning about immigration obligations, to protecting my rights.
@@ -54,9 +59,9 @@
 
     <!--RECOMMENDATIONS BOX-->
 
-        <div class="box">
+        <div class="box center">
             <h2 class="center">Testimonials</h2>
-            <div class="line"></div>
+            <div class="horisontal-line"></div>
             <div class="inside-box">        
                 <h3 >Shannon M. Allison</h3>
                 <br>
@@ -103,5 +108,9 @@
         </div>
 
     </footer>
+
+      <!-- font awesome script -->   
+      <script src="https://kit.fontawesome.com/205330c142.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
