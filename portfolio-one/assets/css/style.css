@@ -44,17 +44,18 @@ img{
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  margin-right: 2em;
 }
 
 .menu-items li{
   display: flex;
   justify-content: space-between;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-left: 1em;
 }
 
 .menu-items li :hover{
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 footer{
@@ -62,16 +63,14 @@ footer{
     display: flex;
     justify-content: space-between; 
     align-items: flex-end;
-    font-size: 70%;
 }
-
-
 
 /*ID's*/
 
 #home{
     background:  url(../images/Laptop.jpg);
     background-size:100% 100%;
+    
 }
 
 #fname, #lname, #email, #submit, #subject{
@@ -90,7 +89,7 @@ footer{
 }
 
 .title{
-  color: rgb(192, 196, 199);
+  color: rgb(219, 223, 226);
 }
 
 /*CLASSES*/
@@ -111,7 +110,7 @@ footer{
 }
 
 .wrapper .picture :hover{
-    transform:scaleX(5%);
+    transform:scaleX(0.05);
     transition: all 10s ease;
 }
 
@@ -148,6 +147,7 @@ footer{
 .column{
   display: flex;
   justify-content: space-around;
+
 }
 
 .wrapper{
@@ -157,19 +157,20 @@ footer{
 }
 
 .box{
-    width: 400px;
+    width: 380px;
     display: flex;
     flex-direction: column;
+    margin:0 2em 0 2em;
 }
 
 .inside-box{
     display: flex;
     flex-direction: column;
-    margin: 2em 0 2em 0;
+    margin:2em;
    
 }
 
-@media (max-width: 800px){
+@media (max-width: 760px){
 
   .container {
     max-width: 1050px;
@@ -179,7 +180,7 @@ footer{
   
   .navbar {
     width: 100%;
-    box-shadow: 0 1px 4px rgba(36, 44, 33, 0.15);
+    box-shadow: 0 1px 4px rgba(17, 232, 228, 0.15);
   
   }
   
@@ -200,10 +201,10 @@ footer{
   
   .navbar .nav-container a {
     text-decoration: none;
-    color: #6cc6c3;
+    color: #66f0e9;
     font-weight: 800;
     font-size: 1.2rem;
-    padding: 0.7rem;
+    padding: 0.3rem;
   }
   
   .navbar .nav-container a:hover{
@@ -235,7 +236,7 @@ footer{
     position: absolute;
     top: 17px;
     left: 20px;
-    z-index: 2;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -245,8 +246,8 @@ footer{
     display: block;
     height: 4px;
     width: 100%;
-    border-radius: 10px;
-    background: #ecf0f2;
+    border-radius: 8px;
+    background:whitesmoke;
   }
   
   .nav-container .hamburger-lines .line1 {
@@ -264,8 +265,10 @@ footer{
   }
   
   .navbar .menu-items {
-    padding-top: 120px;
-    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    position: absolute;
+    z-index: 2;
+    padding-top: 70px;
+    background-color: rgba(0, 2, 3, 0.5);
     height: 100vh;
     width: 100%;
     transform: translate(-150%);
@@ -278,17 +281,16 @@ footer{
   }
   
   .navbar .menu-items li {
-    margin-bottom: 1.2rem;
-    font-size: 1.5rem;
-    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 900;
   }
 
   .logo {
     position: absolute;
     top: 1em;
-    right: 2em;
-    font-size: 1rem;
-    color:whitesmoke;
+    right: 1em;
+    font-size: 0.8rem;
   }
   
   .nav-container input[type="checkbox"]:checked ~ .menu-items {
@@ -318,9 +320,11 @@ footer{
   .column{
     display: flex;
     flex-direction: column;
+    margin:0 0 4em 4em;
   }
 
-.box{
-  width: 200px;
+  .box{
+    margin: 0;
+  width: 260px;
 }  
 }

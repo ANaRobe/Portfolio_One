@@ -14,51 +14,9 @@ Requirements for this present project is that the website has to be static and r
 
 A live version of the site can be found here: https://anarobe.github.io/Portfolio_One/index.html
 
-## Table of contents
-
-- UX
-         -
-User Demographic
-        -
-User Goals
-        -
-Design
-        -
-Colour Scheme
-        -
-Typography
-        -
-Images
-
-- Features
-        -
-Header and Navigation Bar
-        -
-Home Page
-        -
-Work Page
-        -
-About Page
-        -
-Contact Page
-        -
-Footer section
-        -
-- Technologies Used
-- Testing
-        -
-Validator testing
-        -
-Testing and bugs
-        -
-- Deployment
-- Media
-- Acknowledgements
-- Sources
-
 ## UX
 
-### User Demographic
+### <a name="User Demographic"></a> 
 
 This website has been designed to point in the right direction the potential clients and provide a convenient way to analise the Full-stack web developer's programming skills.
 
@@ -166,14 +124,22 @@ The purpose of this footer is to provide more access to the works of the web dev
 
 ### Testing
 
+After clearing the 
+
 ## Validator testing
 
 ![alt text](portfolio-one/assets/images/html-validator.png)
 
 ## Lighthouse testing
 
+![alt text](portfolio-one/assets/images/css-valid.png)
+
+* CSS validator issues: I changed font-size as percentages, and the value of scaleX as 0.05 instead of the percentage.
+
 ## Testing and Bugs
 
+* Responsiveness on iPhone4 resolution had to be fixed. 
+- The solution was  burger menu for the navigation ( via media query)
 
 ### Deployment
 
