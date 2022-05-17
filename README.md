@@ -52,11 +52,6 @@ Images have been chosen and edited in accordance to colour and content.
 
 
 ## Features
-- Navigation bar
-- Home page
-- Work page
-- About page
-- Contact page
 
 ### Header and Navigation bar
 
@@ -140,6 +135,7 @@ After clearing the
 
 * Responsiveness on iPhone4 resolution had to be fixed. 
 - The solution was  burger menu for the navigation ( via media query)
+* Email validation in the contact form had to be fixed.
 
 ### Deployment
 
@@ -193,7 +189,7 @@ https://giacomobattocchio.it/wp-content/uploads/2021/01/cropped-wallpaperflare.c
 
 * Martina Terlevic
 
-* Kasia
+* Kasia Bogucka
 
 * Ionut Ciobanu
 
