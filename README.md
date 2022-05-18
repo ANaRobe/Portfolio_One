@@ -135,7 +135,10 @@ After clearing the
 
 * Responsiveness on iPhone4 resolution had to be fixed. 
 - The solution was  burger menu for the navigation ( via media query)
-* Email validation in the contact form had to be fixed.
+* Email validation had to be fixed.
+- I have changed the input for email according to: https://www.w3schools.com/tags/att_input_type_email.asp
+* In media query the logo was not responding to .links class. Therefore I have applied the same class for the anchor, as for the h2.
+
 
 ### Deployment
 
