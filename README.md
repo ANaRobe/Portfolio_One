@@ -119,7 +119,14 @@ The purpose of this footer is to provide more access to the works of the web dev
 
 ### Testing
 
-After clearing the 
+- I tested that this page works in different browsers: Chrome, Firefox, Microsoft Edge.
+
+- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+
+- I confirmed that all elemnts which are clickable function accordingly.
+
+-I have tested if the form works: requires entries in every field, will only accept an email field, and the submission button works
+
 
 ## Validator testing
 
@@ -135,9 +142,12 @@ After clearing the
 
 * Responsiveness on iPhone4 resolution had to be fixed. 
 - The solution was  burger menu for the navigation ( via media query)
+
 * Email validation had to be fixed.
 - I have changed the input for email according to: https://www.w3schools.com/tags/att_input_type_email.asp
-* In media query the logo was not responding to .links class. Therefore I have applied the same class for the anchor, as for the h2.
+
+* In media query the logo was not responding to .links class. 
+- I have applied the same class for the anchor, as for the h2.
 
 
 ### Deployment
